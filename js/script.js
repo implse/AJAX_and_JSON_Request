@@ -12,7 +12,7 @@ request.onreadystatechange = function(){
         var listItem = document.createElement('div');
         listItem.className = 'artist';
         listItem.innerHTML = '<h2>' + element.Artist_Name + ' : ' + element.Album_Title + '</h2>'
-        +'<h3>' + ' Label : '+ element.Label + '</h3>';
+        +'<p>' + ' Label : '+ element.Label + '<p>';
         DOMNode.appendChild(listItem);
         var listImg = document.createElement('img');
         listImg.src = element.Cover;
