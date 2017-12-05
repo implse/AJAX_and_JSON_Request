@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans');
+body {
+  font-family: font-family: 'Open Sans', sans-serif;
+  background-color: #F4F4F4;
+  color: #333333;
+}
+h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 4em;
+}
+p {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+hr{
+  margin: 40px;
+  background-color: #E0E0E0;
+}

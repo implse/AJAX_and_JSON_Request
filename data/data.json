@@ -1,0 +1,39 @@
+{
+  "Jazz": [
+    {
+      "id": 1,
+      "Artist_Name": "Miles Davis",
+      "Album_Title": "Kind of Blue",
+      "Year": 1959,
+      "Label": "Columbia",
+      "Cover" : "images/Miles_Davis-Kind_of_Blue.jpg"
+    },
+
+    {
+      "id": 2,
+      "Artist_Name": "Dave Brubeck Quartet",
+      "Album_Title": "Time Out",
+      "Year": 1959,
+      "Label": "Columbia",
+      "Cover" : "images/Dave_Brubeck_Quartet-Time_Out.jpg"
+    },
+
+    {
+      "id": 3,
+      "Artist_Name": "Charles Mingus",
+      "Album_Title": "Mingus Ah Um",
+      "Year": 1959,
+      "Label": "Columbia",
+      "Cover" : "images/Charles_Mingus-Ah_Um.jpg"
+    },
+
+    {
+      "id": 0,
+      "Artist_Name": "Ornette Coleman",
+      "Album_Title": "The Shape Of Jazz to come",
+      "Year": 1959,
+      "Label": "Atlantic",
+      "Cover" : "images/Ornette Coleman-The_Shape_of_Jazz_to_Come.jpg"
+    }
+  ]
+}
