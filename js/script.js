@@ -1,6 +1,6 @@
-var data;
 var request = new XMLHttpRequest();
 var DOMNode = document.querySelector('.artist');
+var data;
 
 request.open('GET', 'data/data.json');
 request.onreadystatechange = function(){
@@ -19,7 +19,6 @@ request.onreadystatechange = function(){
         DOMNode.appendChild(listImg);
         var transition = document.createElement('HR');
         DOMNode.append(transition);
-
       }
     }
   }
