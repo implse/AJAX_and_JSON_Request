@@ -15,5 +15,4 @@ https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 
 To start the local Dev Server on port `8000`:
 
-```python -m http.server
-```
+`python -m http.server`
