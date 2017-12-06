@@ -19,11 +19,9 @@ request.onreadystatechange = function(){
         var listItem = document.createElement('div');
         listItem.className = 'artist';
         listItem.innerHTML = '<h2>' + element.Artist_Name + ' : ' + element.Album_Title + '</h2>'
-        +'<p class="label">' + ' Label : '+ element.Label + '<p>';
+        +'<p class="label">' + ' Label : '+ element.Label + '<p>'
+        + '<img src= " '+ element.Cover + ' ">';
         DOMNode.appendChild(listItem);
-        var listImg = document.createElement('img');
-        listImg.src = element.Cover;
-        DOMNode.appendChild(listImg);
         var transition = document.createElement('HR');
         DOMNode.append(transition);
       }
